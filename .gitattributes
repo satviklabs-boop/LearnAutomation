@@ -1,0 +1,26 @@
+# Normalize all text files to LF in the repository, regardless of OS.
+* text=auto eol=lf
+
+# Explicitly declare common text files.
+*.java   text
+*.md     text
+*.txt    text
+*.xml    text
+*.gradle text
+.gitignore       text
+.gitattributes   text
+
+# Windows script files keep CRLF.
+*.bat    text eol=crlf
+*.cmd    text eol=crlf
+*.ps1    text eol=crlf
+
+# Binary files are never modified.
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.ico    binary
+*.pdf    binary
+*.jar    binary
+*.class  binary
