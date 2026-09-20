@@ -1,0 +1,9 @@
+public class RandomNumber {
+
+    public static void main(String[] args) {
+
+        int number = (int)(Math.random() * 100) + 1;
+
+        System.out.println("Random number: " + number);
+    }
+}
